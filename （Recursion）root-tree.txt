@@ -1,0 +1,158 @@
+He Xianxuan Primality Test v5.3 - Primitive Root Tree Certificate
+何先玄素性测试 v5.3 - 原根树证书
+n=10^20+ 39 = 100000000000000000039
+
+【素数基本信息】| Basic Prime Information
+n = 100000000000000000039
+Digits: 21 | 位数: 21
+Primality: Prime (verified by sympy.isprime) | 素性: 素数 (sympy.isprime 验证)
+Primitive root g = 3 | 原根 g = 3
+
+【n - 1 的完整分解】| Full Factorization of n - 1
+n - 1 = 100000000000000000038
+= 2 × 3 × 32839 × 507526619771207
+
+Factor Details: | 因子详情:
+2 = 2 (1 digit) | 2 = 2 (1位)
+3 = 3 (1 digit) | 3 = 3 (1位)
+32839 = 32839 (5 digits) | 32839 = 32839 (5位)
+507526619771207 = ... (15 digits, largest factor) | 507526619771207 = ... (15位, 最大因子)
+
+【原根树证书】| Primitive Root Tree Certificate
+┌─ Level 0: Main Prime n = 100000000000000000039
+│  Primitive root g = 3 | 原根 g = 3
+│  100000000000000000039-1 = 2 × 3 × 32839 × 507526619771207
+│ ├─ p = 2
+│ │  Primitive root = 1 (trivial) | 原根 = 1 (平凡)
+│ ├─ p = 3
+│ │  3-1 = 2 (small prime, cached) | 3-1 = 2 (小素数，已缓存)
+│ │  Primitive root g = 2 | 原根 g = 2
+│ ├─ p = 32839
+│ │  32839-1 = 2 × 3 × 13 × 421
+│ │  Primitive root g = 6 | 原根 g = 6
+│ │ ├─ p = 2
+│ │ │  Primitive root = 1 (trivial) | 原根 = 1 (平凡)
+│ │ ├─ p = 13
+│ │ │  13-1 = 2^2 × 3 (small prime, cached) | 13-1 = 2^2 × 3 (小素数，已缓存)
+│ │ │  Primitive root g = 2 | 原根 g = 2
+│   ├─ p = 421
+│   │  421-1 = 2^2 × 3 × 5 × 7 (small prime, cached) | 421-1 = 2^2 × 3 × 5 × 7 (小素数，已缓存)
+│   │  Primitive root g = 2 | 原根 g = 2
+  ├─ p = 507526619771207
+  │  507526619771207-1 = 2 × 7 × 43 × 5741 × 146850283
+  │  Primitive root g = 5 | 原根 g = 5
+  │ ├─ p = 2
+  │ │  Primitive root = 1 (trivial) | 原根 = 1 (平凡)
+  │ ├─ p = 7
+  │ │  7-1 = 2 × 3 (small prime, cached) | 7-1 = 2 × 3 (小素数，已缓存)
+  │ │  Primitive root g = 3 | 原根 g = 3
+  │ ├─ p = 43
+  │ │  43-1 = 2 × 3 × 7 (small prime, cached) | 43-1 = 2 × 3 × 7 (小素数，已缓存)
+  │ │  Primitive root g = 3 | 原根 g = 3
+  │ ├─ p = 5741
+  │ │  5741-1 = 2^2 × 5 × 7 × 41
+  │ │  Primitive root g = 2 | 原根 g = 2
+  │ │ ├─ p = 2
+  │ │ │  Primitive root = 1 (trivial) | 原根 = 1 (平凡)
+  │ │ ├─ p = 5
+  │ │ │  5-1 = 2^2 (small prime, cached) | 5-1 = 2^2 (小素数，已缓存)
+  │ │ │  Primitive root g = 2 | 原根 g = 2
+  │   ├─ p = 41
+  │   │  41-1 = 2^3 × 5 (small prime, cached) | 41-1 = 2^3 × 5 (小素数，已缓存)
+  │   │  Primitive root g = 6 | 原根 g = 6
+    ├─ p = 146850283
+    │  146850283-1 = 2 × 3^2 × 419 × 19471
+    │  Primitive root g = 2 | 原根 g = 2
+    │ ├─ p = 2
+    │ │  Primitive root = 1 (trivial) | 原根 = 1 (平凡)
+    │ ├─ p = 419
+    │ │  419-1 = 2 × 11 × 19 (small prime, cached) | 419-1 = 2 × 11 × 19 (小素数，已缓存)
+    │ │  Primitive root g = 2 | 原根 g = 2
+      ├─ p = 19471
+      │  19471-1 = 2 × 3 × 5 × 11 × 59
+      │  Primitive root g = 11 | 原根 g = 11
+      │ ├─ p = 2
+      │ │  Primitive root = 1 (trivial) | 原根 = 1 (平凡)
+      │ ├─ p = 11
+      │ │  11-1 = 2 × 5 (small prime, cached) | 11-1 = 2 × 5 (小素数，已缓存)
+      │ │  Primitive root g = 2 | 原根 g = 2
+        ├─ p = 59
+        │  59-1 = 2 × 29 (small prime, cached) | 59-1 = 2 × 29 (小素数，已缓存)
+        │  Primitive root g = 2 | 原根 g = 2
+
+【统计信息】| Statistics
+Total Nodes: 22 | 总节点数: 22
+Trivial Nodes (p=2): 6 | 平凡节点 (p=2): 6
+Non-trivial Nodes: 16 | 非平凡节点: 16
+Terminal Nodes (<=1000, cached): 10 | 终端节点 (<=1000, 已缓存): 10
+Max Depth: 4 | 最大深度: 4
+Distinct Primes Involved: 16 | 涉及的不同素数: 16
+
+【大素数节点 (>1000)】| Large Prime Nodes (>1000)
+Depth 0: 100000000000000000039 | 深度0: 100000000000000000039
+Depth 1: 32839 | 深度1: 32839
+Depth 1: 507526619771207 | 深度1: 507526619771207
+Depth 2: 5741 | 深度2: 5741
+Depth 2: 146850283 | 深度2: 146850283
+Depth 3: 19471 | 深度3: 19471
+
+================================================================================
+Core Theorem: He Xianxuan Primality Theorem (Primitive Root Recurrence Formula)
+核心定理: 何先玄素性定理（原根递推公式）
+================================================================================
+Given: ordₚ(a) = k, p is an odd prime, m = (p-1)/k
+已知: ord_p(a) = k, p 为奇素数, m = (p-1)/k
+
+Conclusion I (He Xianxuan Primitive Root Theorem):
+结论 I（何先玄原根定理）:
+The solution set of xᵐ ≡ a (mod p) contains a primitive root
+xᵐ ≡ a (mod p) 的解集中存在原根
+
+Conclusion II (Recurrence Formula):
+结论 II（递推公式）:
+If a₁ᵐ ≡ a (mod p), let k₁ = ordₚ(a₁), m₁ = (p-1)/k₁
+若 a₁ᵐ ≡ a (mod p), 设 k₁ = ord_p(a₁), m₁ = (p-1)/k₁
+(1) The solution set of xᵐ¹ ≡ a₁ (mod p) also contains a primitive root, with k | k₁, m₁ ≤ m
+(1) xᵐ¹ ≡ a₁ (mod p) 的解集中也存在原根，且有 k | k₁, m₁ ≤ m
+(2) If gcd(k₁, m) > 1, then m₁ < m (strictly decreasing)
+(2) 若 gcd(k₁, m) > 1, 则 m₁ < m（严格递减）
+
+Core Equation: k₁ = k × gcd(k₁, m)
+核心等式: k₁ = k × gcd(k₁, m)
+⚠️ Important Reminder: gcd(k₁, m), NOT gcd(k, m)!
+⚠️ 重要提醒: 这里是 gcd(k₁, m)，不是 gcd(k, m)！
+
+================================================================================
+20+ Digit Large Number Factorization Engine: sympy.factorint (with ECM Algorithm)
+20位以上大数分解引擎: sympy.factorint (含ECM椭圆曲线法)
+================================================================================
+For 20+ digit large numbers, factorization of n-1 requires sympy.factorint, which automatically calls the ECM algorithm.
+对于20位以上的大数，n-1的分解必须使用sympy.factorint，其自动调用ECM算法。
+
+Reason:
+- Trial Division Time Complexity: O(√n)
+  For a 21-digit number, √n ≈ 10^10.5, requiring ~30 billion calculations — completely infeasible
+  - 试除法时间复杂度: O(√n)
+    对于21位数字，√n ≈ 10^10.5，需要约300亿次运算，完全不可行
+- ECM Time Complexity: O(exp((1+o(1))√(2·ln(p)·ln(ln(p)))))
+  ECM is orders of magnitude faster than trial division for 15~20 digit large prime factors
+  - ECM时间复杂度: O(exp((1+o(1))√(2·ln(p)·ln(ln(p)))))
+    对于15~20位大素因子，ECM比试除法快数个数量级
+
+sympy.factorint automatically selects the optimal algorithm combination:
+- Small factors: Trial Division
+- Medium factors: Pollard Rho Algorithm
+- Large factors: ECM (Elliptic Curve Method)
+sympy.factorint 自动选择最优算法组合:
+- 小因子: 试除法（Trial Division）
+- 中等因子: Pollard Rho 算法
+- 大因子: ECM (椭圆曲线法，Elliptic Curve Method)
+
+Installation Command: pip install sympy
+安装命令: pip install sympy
+
+================================================================================
+Report Generated Time: 2026-07-05
+报告生成时间: 2026-07-05
+He Xianxuan Primality Test v5.3
+何先玄素性测试 v5.3
