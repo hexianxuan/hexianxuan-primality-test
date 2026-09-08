@@ -1,3 +1,13 @@
+Contact: Hexianxuan He
+
+Email:
+
+1072004838@qq.com
+
+联系邮箱:
+
+1072004838@qq.com
+
 # hexianxuan-primality-test
 This program is developed based on He Xianxuan's Primitive Root Theorem and He Xianxuan's Primality Theorem.
 Formal theorem archive DOI: https://doi.org/10.5281/zenodo.21333058
